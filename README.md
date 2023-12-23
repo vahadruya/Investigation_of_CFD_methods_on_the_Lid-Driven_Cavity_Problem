@@ -1,1 +1,1 @@
-# Lid_driven_cavity_CFD_using_Vorticity_SF_approach
+# Lid Driven Cavity CFD Using Vorticity Stream-Function Approach
