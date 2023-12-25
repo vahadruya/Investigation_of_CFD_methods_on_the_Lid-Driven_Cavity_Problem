@@ -47,7 +47,7 @@ $$\frac{\partial^2\psi}{\partial x^2} + \frac{\partial^2\psi}{\partial y^2} = -\
 
 $$\frac{\partial\omega}{\partial t} + \frac{\partial\psi}{\partial y}\frac{\partial\omega}{\partial x} - \frac{\partial\psi}{\partial x}\frac{\partial\omega}{\partial y}= \nu\nabla^2\omega$$
 
-$$\omega_{\text{i, j}}^{\text{n+1}} = \frac{\Delta t}{2\Delta x\Delta y}\left[\left(\psi_{\text{i+1, j}}^{\text{n}} - \psi_{\text{i-1, j}}^{\text{n}}\right)\left(\omega_{\text{i, j+1}}^{\text{n}} - \omega_{\text{i, j-1}}^{\text{n}}\right) - \left(\psi_{\text{i, j+1}}^{\text{n}} - \psi_{\text{i, j-1}}^{\text{n}}\right)\left(\omega_{\text{i+1, j}}^{\text{n}} - \omega_{\text{i-1, j}}^{\text{n}}\right)\right] + \nu\Delta t\left[\frac{\omega_{\text{i+1, j}}^{\text{n}}+\omega_{\text{i-1, j}}^{\text{n}}}{(\Delta x)^2}+\frac{\omega_{\text{i, j+1}}^{\text{n}}+\omega_{\text{i, j-1}}^{\text{n}}}{(\Delta y)^2}\right]$$
+$$\omega_{\text{i, j}}^{\text{n+1}} = \frac{\Delta t}{4\Delta x\Delta y}\left[\left(\psi_{\text{i+1, j}}^{\text{n}} - \psi_{\text{i-1, j}}^{\text{n}}\right)\left(\omega_{\text{i, j+1}}^{\text{n}} - \omega_{\text{i, j-1}}^{\text{n}}\right) - \left(\psi_{\text{i, j+1}}^{\text{n}} - \psi_{\text{i, j-1}}^{\text{n}}\right)\left(\omega_{\text{i+1, j}}^{\text{n}} - \omega_{\text{i-1, j}}^{\text{n}}\right)\right] + \nu\Delta t\left[\frac{\omega_{\text{i+1, j}}^{\text{n}}+\omega_{\text{i-1, j}}^{\text{n}}}{(\Delta x)^2}+\frac{\omega_{\text{i, j+1}}^{\text{n}}+\omega_{\text{i, j-1}}^{\text{n}}}{(\Delta y)^2}\right]$$
 
 $$ + \omega_{\text{i, j}}^{\text{n}}\left[1 - 2\nu\Delta t\left(\frac{1}{(\Delta x)^2} + \frac{1}{\Delta y)^2}\right)\right]$$
 
