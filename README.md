@@ -93,6 +93,8 @@ For the following settings:
 
 the following stream-line progression (along equal intervals of time-steps) is obtained through matplotlib's streamplot:
 
+![streamline_animation](https://github.com/vahadruya/Lid_driven_cavity_CFD_using_Vorticity_SF_approach/assets/115869753/c4f0bd87-ba3c-44da-9fb1-882eaebaa1b5)
+
 ![streamline_animation](https://github.com/vahadruya/Lid_driven_cavity_CFD_using_Vorticity_SF_approach/assets/115869753/77f7ab1d-c4f3-49f2-9c4b-03e137ac9f4b)
 
 <div align = "right">    
