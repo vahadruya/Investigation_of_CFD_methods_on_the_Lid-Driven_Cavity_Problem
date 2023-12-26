@@ -57,11 +57,11 @@ $$ + \omega_{\text{i, j}}^{\text{n}}\left[1 - 2\nu\Delta t\left(\frac{1}{(\Delta
 
 ## Stability Criteria
 
-The FTCS scheme for the advection-diffusion equation is not unconditionally stable, but has to follow a stability criteria (which can be derived using the Von-Mises analysis). For two dimensions, they are:
+The FTCS discretization of the linear advection-diffusion equation is not unconditionally stable, but has to follow a stability criteria (which can be derived using the Von-Mises analysis). For two dimensions, they are:
 
 $$\frac{\mu\Delta t}{\Delta x^2} \le \frac{1}{4} \qquad AND \qquad \frac{(|U|^2+|V|^2)\Delta t}{\mu}\le4$$
 
-based on which the time step size and grid sizes should be calculated.
+based on which the time step size and grid sizes should be calculated. Although the NS equation's discretization may not follow the above exact rules, these can serve as good guidelines for the (non-linear) convection-diffusion equations of the Navier-Stokes as well.
 
 <div align = "right">    
   <a href="#lid-driven-cavity-cfd-using-vorticity-stream-function-approach">(back to top)</a>
