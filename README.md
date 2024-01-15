@@ -18,8 +18,13 @@ The Lid-Driven Cavity problem is studied for investigation of different basic CF
 
 ## Libraries Used
 
+<a href="https://pandas.pydata.org/" target="_blank"><img src="https://img.shields.io/badge/Pandas-black?style=flat-square&logo=Pandas&logoColor=white&link=https://pandas.pydata.org" alt="Pandas" width="84" height="25"></a>
 <a href="https://numpy.org/" target="_blank"><img src="https://img.shields.io/badge/NumPy-4d77cf?style=flat-square&logo=Numpy&logoColor=white&link=https://numpy.org/" alt="Numpy" width="84" height="25"></a>
 <a href="https://matplotlib.org/" target="_blank"><img src="https://img.shields.io/badge/Matplotlib-afc6d3?style=flat-square&logo=matplotlib&logoColor=white&link=https://matplotlib.org/" alt="Matplotlib" width="78" height="25"></a>
+<a href="https://seaborn.pydata.org/" target="_blank"><img src="https://img.shields.io/badge/Seaborn-7db0bc?style=flat-square&logo=seaborn&logoColor=white&link=https://seaborn.pydata.org/" alt="Seaborn" width="65" height="25"></a>
+<a href="https://scipy.org/" target="_blank"><img src="https://img.shields.io/badge/SciPy-0053a1?style=flat-square&logo=scipy&logoColor=white&link=https://scipy.org/" alt="SciPy" width="75" height="25"></a>
+
+
 </div>
 
 <div align = "right">    
